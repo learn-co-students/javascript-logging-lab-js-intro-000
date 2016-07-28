@@ -1,3 +1,4 @@
+
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -7,8 +8,8 @@ const path = require('path')
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
-console.error ()
-  it('calls console.error("HALP")', done => {
+console.error ('23")
+  it('calls console.error("23")', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -44,3 +45,4 @@ console.error ()
     })
   })
 })
+learn submit
