@@ -8,8 +8,8 @@ const path = require('path')
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
-console.error ('23")
-  it('calls console.error("23")', done => {
+console.error ()
+  it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -45,4 +45,3 @@ console.error ('23")
     })
   })
 })
-learn submit
