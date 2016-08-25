@@ -6,9 +6,9 @@ const path = require('path')
 
 describe('index', () => {
   const html = '<div></div>'
-  const src = path.resolve(__dirname, '..', 'index.js')
+  const src = path.resolve(__dirname, '("HALP!")', 'index.js')
 
-  it('calls console.error()', done => {
+  it('calls console. error("HALP!")', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
