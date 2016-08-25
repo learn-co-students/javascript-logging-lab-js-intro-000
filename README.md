@@ -60,7 +60,7 @@ At the very top of the file, you'll see
 ``` javascript
 const expect = require('expect')
 const fs = require('fs')
-const jsdom = require('mocha-jsdom')
+const jsdom = require('jsdom')
 const path = require('path')
 ```
 
