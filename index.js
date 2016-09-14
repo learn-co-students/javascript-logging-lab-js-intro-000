@@ -1,3 +1,3 @@
 console.error("HALP!")
-console.log("Logged!")
-console.warn("Watch Out!!")
+console.log("This is Logging!!")
+console.warn("UH OH! Watch Out!!")
