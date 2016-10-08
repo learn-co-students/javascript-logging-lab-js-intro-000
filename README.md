@@ -53,14 +53,14 @@ If you open up that "javascript-logging-lab..." folder, you'll see a list of fil
 
 In `index.js`, you should see, well, nothing. We'll fix that soon.
 
-Now upon up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
 ``` javascript
 const expect = require('expect')
 const fs = require('fs')
-const jsdom = require('mocha-jsdom')
+const jsdom = require('jsdom')
 const path = require('path')
 ```
 
@@ -146,7 +146,7 @@ on, we leave the errors intentionally ambiguous for you to work out.
 ## Your turn
 
 Now it's your turn — can you follow a flow similar to the one we followed
-together above to get the remaining to tests to pass?
+together above to get the remaining two tests to pass?
 
 Imagine that you're building the user interface for a fancy ATM machine.
 Because the developers are hip with the latest trends, they're using
@@ -190,3 +190,5 @@ code and write something with `console.warn()`. You've got this!
 ## Resources
 
 - [npm](https://npmjs.org)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-logging-lab'>JavaScript Logging Lab</a> on Learn.co and start learning to code for free.</p>
