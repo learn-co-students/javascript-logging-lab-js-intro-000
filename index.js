@@ -1,3 +1,3 @@
 console.error("HALP!")
-console.log("Let us fix this problem for you")
-console.warn("It is fixed")
+console.log("I will fix this problem!")
+console.warn("It is super easy to fix it")
