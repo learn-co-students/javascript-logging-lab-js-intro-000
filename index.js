@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("I am wonderful at logging!")
-console.warn("I have logged many times today!")
+console.log("How much money would you like to withdraw today?")
+console.warn("Beware of surroundings")
+console.error("Let us do one more test")
