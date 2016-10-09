@@ -1,3 +1,3 @@
-console.error("dire need of help")
-console.log("what is going on?")
-console.warn("HALP please!!!")
+console.error("help!")
+console.log("I am a logger!")
+console.warn("be careful with logging!")
