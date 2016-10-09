@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("I will fix this problem!")
-console.warn("It is super easy to fix it")
+console.error("dire need of help")
+console.log("what is going on?")
+console.warn("HALP please!!!")
