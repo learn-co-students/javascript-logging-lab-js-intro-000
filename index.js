@@ -1,3 +1,3 @@
-console.log("How much money would you like to withdraw today?")
-console.warn("Beware of surroundings")
-console.error("Let us do one more test")
+console.error("HALP!")
+console.log("Let us fix this problem for you")
+console.warn("It is fixed")
