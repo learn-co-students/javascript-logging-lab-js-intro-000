@@ -8,3 +8,4 @@ console.error("Mommy!")
 `console.warn("CAREFUL!)`
 console.log("I'm a logger")
 `console.warn("DANGER!)`
+console.warn("DANGEROUS")
