@@ -1,3 +1,3 @@
 console.error("HALP!")
-console.log("idk")
-console.warn("almost done!")
+console.log("lol")
+console.warn("work this time plz")
