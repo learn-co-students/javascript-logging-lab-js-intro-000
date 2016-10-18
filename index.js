@@ -1,3 +1,3 @@
-console.error("HALP!");
-console.log("HELP");
-console.warn("BE CAREFUL");
+console.error("HALP!")
+console.log("HELP")
+console.warn("BE CAREFUL")
