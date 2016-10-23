@@ -1,1 +1,1 @@
-console.console.log("I would like to be a logger");
+console.log("I need help"); console.warn("Stop right"); console.error("HALP")
