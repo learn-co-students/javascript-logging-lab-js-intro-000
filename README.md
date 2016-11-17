@@ -1,4 +1,5 @@
-JavaScript Logging Lab
+
+teJavaScript Logging Lab
 ---
 
 ## Objectives
@@ -14,7 +15,7 @@ Welcome to your first JavaScript lab! You'll notice a few new things in this les
 
 ### Tests...
 
-The first new thing you'll notice is tests.  When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+The first new thing you'll notice is tests.  When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variabl   _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
 
 In programming, tests place the scientific method into computer science. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
 
