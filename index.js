@@ -1,2 +1,2 @@
 console.error("HALP!"")
-console.log("STYLESILIKE!")
+console.log("I would be a logger.")
