@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("I would be a logger.") // get it?
-console.warn("HALP");
+console.error("Hello")
+console.log("Thank you for stopping by") // get it?
+console.warn("Bye");
