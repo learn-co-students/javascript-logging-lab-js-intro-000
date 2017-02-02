@@ -1,3 +1,3 @@
-console.log()
-console.error()
-console.warn()
+console.log("Help!")
+console.error("Ugh")
+console.warn("Don't you dare doing that!")
