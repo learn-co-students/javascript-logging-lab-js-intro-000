@@ -43,5 +43,5 @@ describe('index', () => {
       done()
     })
   })
-  console.log('hi');
 })
+console.error();
