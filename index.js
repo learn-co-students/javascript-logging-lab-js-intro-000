@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("I would be a logger.")
-console.warn("Warning please stop action.")
+console.error("HALP")
+console.log("Turn up Turn up ghha")
+console.warn("Platinum with no features just got me some new sneakas")
