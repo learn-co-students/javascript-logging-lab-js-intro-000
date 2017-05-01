@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-logging-lab.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/javascript-logging-lab.git"
   },
   "keywords": [
     "javascript",
@@ -22,9 +22,9 @@
   "author": "pletcher",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/java-script-logging-lab/issues"
+    "url": "https://github.com/learn-co-curriculum/javascript-logging-lab/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-logging-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/javascript-logging-lab#readme",
   "devDependencies": {
     "expect": "^1.20.1",
     "jsdom": "^9.2.1",
