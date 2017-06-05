@@ -1,0 +1,6 @@
+console.error("help")
+console.error("help")
+console.error(("help"))
+console.error("Halp!")
+console.warn("here's a warning!")
+console.log("Here's a log for this test")
