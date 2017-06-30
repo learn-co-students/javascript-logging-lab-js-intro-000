@@ -1,2 +1,6 @@
-console.error("help
-console.log("I would be a logger")
+
+console.error("HALP!")
+
+console.log("I would be a logger.") // get it?
+
+console.warn("Stop.") // get it?
