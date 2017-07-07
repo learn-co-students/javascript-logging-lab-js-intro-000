@@ -1,5 +1,4 @@
-JavaScript Logging Lab
----
+# JavaScript Logging Lab
 
 ## Objectives
 
@@ -24,7 +23,7 @@ On Learn, we use tests as teaching tools. Just like in a normal coding environme
 
 The structure of this lab — where its files and folders are located — looks roughly like the following:
 
-``` shell
+```
 ├── CONTRIBUTING.md
 ├── LICENSE.md
 ├── README.md
@@ -59,7 +58,7 @@ Now open up `test/index-test.js`. Hey, there's something! What's all of this stu
 
 At the very top of the file, you'll see
 
-``` javascript
+```js
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -70,9 +69,8 @@ This might be a bit bewildering, but at this point, we don't need to be able to 
 
 In these first lines, all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
 
-A little farther down the page, you'll see
-
-``` javascript
+A little farther down the page, you'll see:
+```js
 describe('index', () => {
   // there's stuff in here, too
 })
@@ -82,7 +80,7 @@ describe('index', () => {
 
 Then we have a few chunks like
 
-``` javascript
+```js
 it('calls console.error()', () => {
   // this is where the tests are!
 })
@@ -96,7 +94,7 @@ And that'll be great! These aren't like tests that we all took in school: they'r
 
 In some of our tests, you'll see lines like the following:
 
-``` javascript
+```js
 jsdom({
   src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 })
@@ -116,7 +114,7 @@ Let's take the first one. The test description says, "index calls console.error(
 
 In `index.js`, add a call to `console.error()` — you can call it with anything you like (as long as the syntax is valid). We're going to go with
 
-``` javascript
+```js
 console.error("HALP!")
 ```
 
@@ -124,7 +122,7 @@ Because it seems sufficiently dire. Remember to save your file.
 
 Anyway, let's run the tests again. In the Learn IDE's terminal, run
 
-``` javascript
+```js
 learn test
 ```
 
@@ -171,7 +169,7 @@ next lesson.
 In the above, when we ran our tests and saw the message "index calls
 console.error()", we wrote,
 
-```javascript
+```js
 console.error("HALP!")
 ```
 
@@ -179,13 +177,11 @@ Now when we run the tests again and see "index calls console.log()", we should
 look at what is the same and what is different between this message and the
 previous one. It looks like they're basically the same except for one tells
 us to call `console.error()` and the other tells us to call `console.log()`.
-So if we got back to `index.js` and write something like,
-
-```javascript
+So if we go back to `index.js` and write something like...
+```js
 console.log("I would be a logger.") // get it?
 ```
-
-we're now calling `console.log()` with a different string. Similarly, when we
+...we're now calling `console.log()` with a different string. Similarly, when we
 see the message "index calls console.warn()", we know that we can go back to our
 code and write something with `console.warn()`. You've got this!
 
