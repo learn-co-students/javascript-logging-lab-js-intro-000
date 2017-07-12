@@ -1,0 +1,5 @@
+console.error("HALP!")
+console.error ("HALP!")
+console.error("HALP!")
+console.log("I want to remember this log")
+console.warn("This is a warning")
