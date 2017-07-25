@@ -117,7 +117,6 @@ In `index.js`, add a call to `console.error()` — you can call it with anything
 ```js
 console.error("HALP!")
 ```
-
 Because it seems sufficiently dire. Remember to save your file.
 
 Anyway, let's run the tests again. In the Learn IDE's terminal, run
