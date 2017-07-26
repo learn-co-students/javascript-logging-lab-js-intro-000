@@ -1,3 +1,3 @@
-console.log('opeopl', 'the', 'we')
-console.error('Dwer, Wdsf asdf!')
-console.warn('Hdfdfd, dsfs.')
+console.log('Jose', 'Fancy', 'we')
+console.error('Jose, Wait ten sec!')
+console.warn('How, about no.')
