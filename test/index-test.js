@@ -44,3 +44,6 @@ describe('index', () => {
     })
   })
 })
+console.error("AHHHHHHHH!!");
+console.log("Now watch me.");
+console.warn("Told ya.");
