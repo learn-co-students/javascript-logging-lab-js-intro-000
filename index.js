@@ -1,3 +1,3 @@
-console.error('HALP')
-console.log('ok!')
-console.warn('awake!')
+console.error('!CANCELLED!')
+console.log('SUCCESSFUL')
+console.warn('!THREAT!')
