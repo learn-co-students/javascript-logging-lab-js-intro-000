@@ -1,3 +1,4 @@
+
 # JavaScript Logging Lab
 
 ## Objectives
