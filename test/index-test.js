@@ -31,8 +31,8 @@ describe('index', () => {
       done()
     })
   })
-
-  it('calls console.warn()', done => {
+console.error ("HALP")
+console.error (HALP")  it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
     jsdom.env(html, [src], {
