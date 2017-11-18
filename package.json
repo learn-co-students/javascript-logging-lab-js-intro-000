@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Practice writing a log statement",
   "engines": {
-    "node": "6.x",
     "npm": "3.x"
   },
   "main": "index.js",
