@@ -1,3 +1,4 @@
-console.log('I am logging out of GIthub now')
-console.warn("You guys have seen this before")
-console.error('Help, there is errors in this code')
+console.log("READY TO USE.")
+console.warn("YOU DON'T HAVE ENOUGH BALANCE" + 
+" FOR WITHDRAW.")
+console.error("STOP! SOMETHING WENT WRONG.")
