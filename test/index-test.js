@@ -1,26 +1,26 @@
-const expect = require('expect')
-const fs = require('fs')
-const jsdom = require('jsdom')
-const path = require('path')
+const expect = require('expect');
+const fs = require('fs');
+const jsdom = require('jsdom');
+const path = require('path');
 
 
 describe('index', () => {
-  const html = '<div></div>'
-  const src = path.resolve(__dirname, '..', 'index.js')
+  const html = '<div></div>';
+  const src = path.resolve(__dirname, '..', 'index.js');
 
-  it('calls console.error()', done => {
-    const spy = expect.spyOn(console, 'error').andCallThrough()
+  it('calls console.error("HALP")', done => {
+    const spy = expect.spyOn(console, 'error').andCallThrough();
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
-      expect(spy).toHaveBeenCalled('expected console.error to have been called')
-      console.error.restore()
-      done()
-    })
-  })
+      expect(spy).toHaveBeenCalled('expected console.error to have been called');
+      console.error.restore();
+      done();
+    });
+  });
 
-  it('calls console.log()', done => {
+  it('calls console.log("I would be a logger.")', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -32,7 +32,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.warn()', done => {
+  it('calls console.warn("WARN")', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -44,3 +44,4 @@ describe('index', () => {
     })
   })
 })
+
