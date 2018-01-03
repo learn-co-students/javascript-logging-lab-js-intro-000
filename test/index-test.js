@@ -3,6 +3,8 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
+console.log("Hiya")
+console.warn('hiya')
 
 describe('index', () => {
   const html = '<div></div>'
