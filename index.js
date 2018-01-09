@@ -1,3 +1,3 @@
-console.alert("cool");
-console.warn("hai");
-console.log("coooc");
+console.error("cool");
+console.warn("hhh");
+console.log("Dddd");
