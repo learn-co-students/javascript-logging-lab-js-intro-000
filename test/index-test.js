@@ -44,3 +44,8 @@ describe('index', () => {
     })
   })
 })
+console.log()
+console.error()
+console.warn()
+
+
