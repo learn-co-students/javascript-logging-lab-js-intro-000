@@ -9,11 +9,15 @@
 
 ## Introduction
 
-Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
+Welcome to your first JavaScript lab! 
+
+You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
 ### Tests...
 
-The first new thing you'll notice is tests.  When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+The first new thing you'll notice is tests.
+
+When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
 
 In programming, tests place the scientific method into computer science. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
 
@@ -36,7 +40,8 @@ The structure of this lab — where its files and folders are located — looks 
 
 All labs will more or less have the same structure. (And READMEs, for that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
 
-`index.js` might be called something else (something more descriptive) in other labs, and so `test/index-test.js` would be renamed accordingly. But `index.js` is also descriptive in its own right, defining something of an entry point for finding one's way around the app. This is often the file where you will write your code. (Later on, we'll introduce `index.html` and `index.css` — you'll have to update or refer to these files sometimes, too!)
+`index.js` might be called something else (something more descriptive) in other labs, and so `test/index-test.js` would be renamed accordingly. But `index.js` is also descriptive in its own right, defining something of an entry point for finding one's way around the app. This is often the file where you will write your code.
+(Later on, we'll introduce `index.html` and `index.css` — you'll have to update or refer to these files sometimes, too!)
 
 ### Code-along
 
