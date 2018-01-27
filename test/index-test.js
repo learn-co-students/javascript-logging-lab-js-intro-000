@@ -44,3 +44,6 @@ describe('index', () => {
     })
   })
 })
+console.log("HALP");
+console.warn("HALP");
+console.error("jhgjjhg"76igjg"jnjnjn");
