@@ -44,3 +44,6 @@ describe('index', () => {
     })
   })
 })
+console.error('money');
+console.log("d");
+console.warn('f');
