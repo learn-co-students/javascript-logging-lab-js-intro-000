@@ -8,12 +8,14 @@ describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
+
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
+      console.error("HALP!")
       expect(spy).toHaveBeenCalled('expected console.error to have been called')
       console.error.restore()
       done()
@@ -26,6 +28,7 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
+      console.log("I would be a logger.")
       expect(spy).toHaveBeenCalled('expected console.log to have been called')
       console.log.restore()
       done()
@@ -38,6 +41,7 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
+      console.warn();("I would be a logger.")
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
       done()
