@@ -1,0 +1,5 @@
+console.error ("HALP!")
+console.error("HALP!")
+console.error("HALP!")
+console.warn("would you be a logger")
+console.log("I would be a logger")
