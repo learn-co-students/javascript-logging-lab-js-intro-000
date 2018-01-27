@@ -148,7 +148,7 @@ on, we leave the errors intentionally ambiguous for you to work out.
 Now it's your turn — can you follow a flow similar to the one we followed
 together above to get the remaining two tests to pass?
 
-Imagine that you're building the user interface for a fancy ATM machine.
+Imagine that you're building the user interface for a fancy ATM.
 Because the developers are hip with the latest trends, they're using
 JavaScript for the user-facing parts.
 
