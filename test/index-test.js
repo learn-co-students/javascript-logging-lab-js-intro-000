@@ -44,3 +44,5 @@ describe('index', () => {
     })
   })
 })
+console.warn("WORK IT")
+console.log("I'm a logger")
