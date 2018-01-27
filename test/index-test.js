@@ -1,17 +1,17 @@
-const expect = require('expect')
-const fs = require('fs')
-const jsdom = require('jsdom')
-const path = require('path')
+const expect = require('expect')  //except library
+const fs = require('fs')          //fs library
+const jsdom = require('jsdom')    //jsdom library
+const path = require('path')      //path library
 
 
-describe('index', () => {
-  const html = '<div></div>'
+describe('index', () => {         //a function provided by our test runner (we are using)..
+  const html = '<div></div>'      // ..Mocha in this case. This is our sandbox
   const src = path.resolve(__dirname, '..', 'index.js')
 
-  it('calls console.error()', done => {
-    const spy = expect.spyOn(console, 'error').andCallThrough()
-
-    jsdom.env(html, [src], {
+  it('calls console.error()', done => {   //this is like a call to do something..
+    const spy = expect.spyOn(console, 'error').andCallThrough() //.. in this case, we are calling..
+                                          //..the console.error()
+    jsdom.env(html, [src], {              // this it() function is calling for behvior, not information
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.error to have been called')
