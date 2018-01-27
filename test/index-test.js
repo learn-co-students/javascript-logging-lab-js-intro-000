@@ -1,12 +1,13 @@
+//referencing libraries
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
 
-describe('index', () => {
+describe('index', () => { //container for tests
   const html = '<div></div>'
-  const src = path.resolve(__dirname, '..', 'index.js')
+  const src = path.resolve(__dirname, '..', 'index.js') /*reads index.js*/
 
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
