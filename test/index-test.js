@@ -14,7 +14,7 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
-      expect(spy).toHaveBeenCalled('expected console.error to have been called')
+      expect(spy).toHaveBeenCalled(console.error("HALP!"))
       console.error.restore()
       done()
     })
@@ -26,7 +26,7 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
-      expect(spy).toHaveBeenCalled('expected console.log to have been called')
+      expect(spy).toHaveBeenCalled(console.log("BS!!"))
       console.log.restore()
       done()
     })
@@ -38,7 +38,7 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
-      expect(spy).toHaveBeenCalled('expected console.warn to have been called')
+      expect(spy).toHaveBeenCalled(console.warn("CAREFULL"))
       console.warn.restore()
       done()
     })
