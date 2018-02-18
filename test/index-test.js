@@ -3,6 +3,10 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
+console.log("Logging");
+console.error("error");
+console.warn("warn");
+
 
 describe('index', () => {
   const html = '<div></div>'
