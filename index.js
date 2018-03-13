@@ -1,5 +1,5 @@
 console.error('halp')
 
-console.log('all of the things')
+console.log('logging all of the things');
 
-console.warn('more of the things')
+console.warn('warning all of the things');
