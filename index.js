@@ -1,5 +1,3 @@
-console.error('halp')
-
-console.log('logging all of the things')
-
-console.warn('warning all of the things')
+console.log('log')
+console.error('all of the')
+console.warn('things')
