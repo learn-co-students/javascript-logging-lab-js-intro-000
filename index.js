@@ -1,1 +1,2 @@
-console.warn("Here is your money!")
+console.error("HALP!")
+console.log("I would be a logger.")
