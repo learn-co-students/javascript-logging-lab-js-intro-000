@@ -1,2 +1,3 @@
 console.error("Halp!")
 console.log("I would be a logger.") //get it?
+console.log("Hello, world!")
