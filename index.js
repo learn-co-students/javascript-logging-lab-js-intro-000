@@ -1,2 +1,3 @@
-console.error(what did you just do?!)
-console.log(logging is for loggers)
+console.error("HALP!")
+console.log("logging is for loggers")
+console.warn("WUT U DOING PUNK")
