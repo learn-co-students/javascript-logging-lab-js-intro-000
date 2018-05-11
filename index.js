@@ -1,1 +1,1 @@
-cosole.error(Halp!)
+cosole.error("Halp!")
