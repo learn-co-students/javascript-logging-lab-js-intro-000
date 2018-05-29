@@ -7,9 +7,11 @@ const path = require('path')
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
-
+console.error("something broke")
+console.log("something needs yours attention")
+console.warn("maybe you should take a look before you continue")
   it('calls console.error()', done => {
-    const spy = expect.spyOn(console, 'error').andCallThrough()
+    const spy = expect.spyOn(console, 'error').andCallThrough(console.error("something broke"))
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
@@ -21,7 +23,7 @@ describe('index', () => {
   })
 
   it('calls console.log()', done => {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+    const spy = expect.spyOn(console, 'log').andCallThrough(console.log("something needs yours attention"))
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
@@ -33,7 +35,7 @@ describe('index', () => {
   })
 
   it('calls console.warn()', done => {
-    const spy = expect.spyOn(console, 'warn').andCallThrough()
+    const spy = expect.spyOn(console, 'warn').andCallThrough(console.warn("maybe you should take a look before you continue"))
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
