@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("I am logging")
-console.warn("Don't do this again")
+console.error("HALP!");
+console.log("I would be a logger.");
+console.warn("Maybe you don't want to do that");
