@@ -1,3 +1,3 @@
-console.error('Help!')
+// console.error('Help!')
 console.log('Hi this is margaret!')
-console.warn('This is a warning!')
+// console.warn('This is a warning!') 
