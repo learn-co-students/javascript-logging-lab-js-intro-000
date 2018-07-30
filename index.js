@@ -1,3 +1,3 @@
-console.error("paramenter 1, paramenter 2")
+console.errorfunction (a)
 console.log("HALP!")
 console.warn("HALP!")
