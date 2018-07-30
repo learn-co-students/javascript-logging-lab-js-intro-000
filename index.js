@@ -1,4 +1,3 @@
-test/index-test.js
-console.error("pleas
-e help!")
-")
+console.warn ("HALP!")
+console.error ("HALP")
+console.log ("HALP")
