@@ -1,3 +1,3 @@
-console.error("spyOn)
+console.error("HALP")
 console.log("HALP!")
 console.warn("HALP!")
