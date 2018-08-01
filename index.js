@@ -1,3 +1,3 @@
-console.error("smile"); 
-console.log("HALP!");
+console.error("HALP"); 
+console.log("HA");
 console.warn("HALP!");
