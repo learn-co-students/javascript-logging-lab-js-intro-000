@@ -1,3 +1,3 @@
-console.error(jsdom); 
+console.error("HALP"); 
 console.log("HA");
 console.warn("HALP!");
