@@ -1,3 +1,3 @@
-console.error(create virtual console) 
+console.error("HALP") 
 console.log("HALP!")
 console.warn("HALP!")
