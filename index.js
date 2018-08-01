@@ -1,3 +1,3 @@
-console.error("HALP")
+console.error()
 console.log("HALP!")
 console.warn("HALP!")
