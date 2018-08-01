@@ -1,3 +1,3 @@
-console.error{"HALP"} 
-console.log("HA");
-console.warn("HALP!");
+console.error ("Halp!");
+console.log ("Halp!");
+console.warn ("Halp!")
