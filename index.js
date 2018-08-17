@@ -1,8 +1,3 @@
 console.error("error occurred")
-let log = console.log;
-
-log("try this")
-
-let warn = console.warn;
-
-warn('warning')
+console.log("this is a log message")
+console.warn("this is a warning message")
