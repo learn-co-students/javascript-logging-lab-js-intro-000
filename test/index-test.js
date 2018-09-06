@@ -44,3 +44,12 @@ describe('index', () => {
     })
   })
 })
+console.error("Half!")
+console.error("HALP!")
+console.error("HALP!")
+console.log("i would be a logger.")
+console.console.error("HALP!")
+console.error
+console.error(HALP!)
+concole.error()
+console.error()
