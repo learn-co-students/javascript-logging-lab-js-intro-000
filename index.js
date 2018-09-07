@@ -1,0 +1,1 @@
+console.log("I would ne a logger")
