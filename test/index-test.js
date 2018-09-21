@@ -5,7 +5,7 @@ const path = require('path')
 
 
 describe('index', () => {
-  const html = '<div></div>'
+  const html = '<div></div>'cons
   const src = path.resolve(__dirname, '..', 'index.js')
 
   it('calls console.error()', done => {
