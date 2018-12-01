@@ -1,3 +1,7 @@
+console.error("HALP!")
+console.log("dont work")
+console.warn("Dont Work!")
+
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
