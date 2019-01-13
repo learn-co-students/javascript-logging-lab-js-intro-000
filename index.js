@@ -1,6 +1,3 @@
-console.error("Help"
-)
-console.log(" I want to be a logger"
-)
-console.warn("Call back"
-)
+console.log("Help")
+{console.error("I would have logged")}
+console.warn("watch out")
