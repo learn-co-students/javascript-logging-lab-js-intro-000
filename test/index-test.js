@@ -2,7 +2,9 @@ const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
-
+console.log("Hello world!")
+console.error("Mistake")
+console.warn("Retreat")
 
 describe('index', () => {
   const html = '<div></div>'
