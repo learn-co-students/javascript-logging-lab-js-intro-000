@@ -1,1 +1,1 @@
-console.error("I would be a logger.")
+console.warn("Final Warning")
