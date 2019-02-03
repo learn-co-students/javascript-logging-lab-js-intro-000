@@ -8,9 +8,9 @@ describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
-  it('calls console.error()', done => {
+  it('calls console.error("Halp!")', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
-
+console.error("Halp!")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -22,7 +22,7 @@ describe('index', () => {
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
-
+console.log("Logs are for dummies")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -34,7 +34,7 @@ describe('index', () => {
 
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
-
+console.warn("It's a trap!!")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
