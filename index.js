@@ -1,0 +1,7 @@
+console.error("HALP!")
+console.error("UPDATE!")
+console.error("WARNING!")
+console.error("ERRORO!")
+console.log("UPDATE!")
+console.warn("WARNING")
+console.error("ERROR!")
