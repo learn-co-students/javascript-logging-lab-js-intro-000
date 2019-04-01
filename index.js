@@ -1,3 +1,3 @@
 console.error("Help")
-console.log("I'm logging")
+console.log("I would be a logger")
 console.warn("stop")
