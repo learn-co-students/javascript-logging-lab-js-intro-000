@@ -1,3 +1,3 @@
 console.error("HALP!");
-console.log("KELVIN".);
-console.warn("FRANCISCO");
+console.log("run it")
+console.warn("stop")
