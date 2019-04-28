@@ -17,7 +17,8 @@ describe('index', () => {
       expect(spy).toHaveBeenCalled('expected console.error to have been called')
       console.error.restore()
       done()
-    })
+    })learn test
+
   })
 
   it('calls console.log()', done => {
