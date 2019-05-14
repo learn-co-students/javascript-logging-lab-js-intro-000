@@ -44,3 +44,6 @@ describe('index', () => {
     })
   })
 })
+console.log("I would be a logger.")//get it?
+console.error()
+console.error("Halp!")
