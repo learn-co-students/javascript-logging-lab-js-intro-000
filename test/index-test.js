@@ -44,3 +44,6 @@ describe('index', () => {
     })
   })
 })
+console.log("HALP!")
+console.error("HALP!")
+console.error("HALP!")
