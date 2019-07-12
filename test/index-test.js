@@ -44,3 +44,4 @@ console
     })
   })
 })
+console.warn()
