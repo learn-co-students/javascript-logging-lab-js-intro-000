@@ -1,14 +1,16 @@
-const expect = require('expect')
+const expect = require('expect')                    //referencing different libraries that help us run your tests
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
 
 describe('index', () => {
+  // there's stuff in here, too
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
   it('calls console.error()', done => {
+    // this is where the tests are!
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -43,4 +45,5 @@ describe('index', () => {
       done()
     })
   })
+
 })
