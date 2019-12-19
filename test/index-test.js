@@ -43,4 +43,7 @@ describe('index', () => {
       done()
     })
   })
+  console.log("I would be")
 })
+
+console.log("I would be")
