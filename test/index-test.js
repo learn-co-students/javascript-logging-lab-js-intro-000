@@ -20,6 +20,8 @@ describe('index', () => {
     })
   })
 
+console.error("HALP!")
+
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
