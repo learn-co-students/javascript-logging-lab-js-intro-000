@@ -1,0 +1,6 @@
+console.error("What an error!")
+console.error("HALP")
+console.error ("Oh my goodness")
+console.error("HALP!")
+console.log("This is the second error being resolved")
+console.warn("Warning, warning, warning")
