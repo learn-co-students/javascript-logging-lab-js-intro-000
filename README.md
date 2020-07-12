@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Practice using `console.log()`
-2. Practice using `console.error()`
+2. Practice using `console.error("HALP!")
 3. Practice using `console.warn()`
 
 
