@@ -5,6 +5,7 @@ const path = require('path')
 
 
 describe('index', () => {
+  console.error("Finding Stack Trace")
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
@@ -19,7 +20,6 @@ describe('index', () => {
       done()
     })
   })
-
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
