@@ -3,11 +3,11 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
 describe('index', () => {
   const html = '<div></div>'
-  const src = path.resolve(__dirname, '..', 'index.js')
+  const src = path.resolve(__dirname, '..', 'index-test.js')
 
+  console.error("Help, error.")
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
@@ -19,7 +19,7 @@ describe('index', () => {
       done()
     })
   })
-
+  console.log("I would be a logger.")
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
@@ -32,6 +32,7 @@ describe('index', () => {
     })
   })
 
+  console.warn("This is a warning.")
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
