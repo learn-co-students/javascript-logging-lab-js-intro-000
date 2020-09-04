@@ -1,3 +1,3 @@
-console.error("help")
-console.log("We be Logging")
-console.warn("no., no., no.")
+console.error("HALP!")
+console.log("WEEE!")
+console.warn("Tisk Tisk")
