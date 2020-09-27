@@ -1,5 +1,5 @@
-console.error("Help!");
+console.error("help!");
 
-console.log("I must have logged", 50, "times today.");
+console.log("hello!");
 
 console.warn("Do not touch");
