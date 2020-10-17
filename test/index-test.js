@@ -8,6 +8,7 @@ describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
+
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
@@ -15,7 +16,7 @@ describe('index', () => {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.error to have been called')
-      console.error.restore()
+      console.error.restore("Halp!")
       done()
     })
   })
