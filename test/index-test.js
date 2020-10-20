@@ -14,13 +14,13 @@ describe('index', () => {
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
-      expect(spy).toHaveBeenCalled('expected console.error to have been called')
+      expect(spy).toHaveBeenCalled('expected consol e.error to have been called')
       console.error.restore()
       done()
     })
   })
 
-  it('calls console.log("there i am trying it")', done => {
+  it('calls console.log("i am trying it")', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -32,14 +32,14 @@ describe('index', () => {
     })
   })
 
-  it('calls console.warn("You made a mistake!")', done => {
-    const spy = expect.spyOn(console, 'warn').andCallThrough()
+  it('calls console.error("made a mistake!")', done => {
+    const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
-      console.warn.restore()
+      console.error.restore()
       done()
     })
   })
