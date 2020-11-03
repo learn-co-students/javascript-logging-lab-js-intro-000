@@ -1,3 +1,3 @@
-console.error("HALP")
-console.warn("stop typing")
-console.log("I am logging")
+console.error ("HALP!")
+console.log (" I would be a logger.")
+console.warn (" Danger yo!")
