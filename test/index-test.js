@@ -18,7 +18,9 @@ describe('index', () => {
       console.error.restore()
       done()
     })
+    console.error("HALP")
   })
+
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -30,6 +32,7 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.log("Why hasn't this worked")
   })
 
   it('calls console.warn()', done => {
@@ -42,5 +45,6 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+    console.warn("Danger stranger")
   })
 })
