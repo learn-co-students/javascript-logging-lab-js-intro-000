@@ -41,3 +41,4 @@ jspm_packages
 
 # Learn-specific .results.json
 .results.json
+console.error("masa!")
