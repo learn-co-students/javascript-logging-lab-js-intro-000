@@ -1,3 +1,3 @@
 console.error("HALP!")
-console.log("Harman")
+console.log("HALP!")
 console.warn("IHFFYHK")
